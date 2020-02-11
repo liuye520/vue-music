@@ -2,7 +2,7 @@
   "name": "vue-music",
   "version": "1.0.0",
   "description": "音乐播放器",
-  "author": "ustbhuangyi <280309453@qq.com>",
+  "author": "liuye520 <80858408@qq.com>",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",

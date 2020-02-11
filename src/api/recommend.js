@@ -5,7 +5,8 @@ const debug = process.env.NODE_ENV !== 'production'
 
 export function getRecommend () {
   // 线上环境地址，同学们根据自己的需要配置修改
-  const url = debug ? '/api/getTopBanner' : 'http://ustbhuangyi.com/music/api/getTopBanner'
+  // const url = debug ? '/api/getTopBanner' : 'http://ustbhuangyi.com/music/api/getTopBanner'
+  const url = debug ? '/api/getTopBanner' : '123.57.140.129:9000/api/getTopBanner'
 
   const data = Object.assign({}, commonParams, {
     platform: 'yqq.json',
@@ -48,7 +49,8 @@ export function getRecommend () {
 
 export function getDiscList () {
   // 线上环境地址，同学们根据自己的需要配置修改
-  const url = debug ? '/api/getDiscList' : 'http://ustbhuangyi.com/music/api/getDiscList'
+  // const url = debug ? '/api/getDiscList' : 'http://ustbhuangyi.com/music/api/getDiscList'
+  const url = debug ? '/api/getDiscList' : '123.57.140.129:9000/api/getDiscList'
 
   const data = Object.assign({}, commonParams, {
     platform: 'yqq',
@@ -70,7 +72,8 @@ export function getDiscList () {
 }
 
 export function getSongList (disstid) {
-  const url = debug ? '/api/getCdInfo' : 'http://ustbhuangyi.com/music/api/getCdInfo'
+  // const url = debug ? '/api/getCdInfo' : 'http://ustbhuangyi.com/music/api/getCdInfo'
+  const url = debug ? '/api/getCdInfo' : '123.57.140.129:9000/api/getCdInfo'
 
   const data = Object.assign({}, commonParams, {
     disstid,
