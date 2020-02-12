@@ -18,7 +18,8 @@ export function getHotKey () {
 
 export function search (query, page, zhida, perpage) {
   // const url = debug ? '/api/search' : 'http://ustbhuangyi.com/music/api/search'
-  const url = debug ? '/api/search' : 'http://123.57.140.129:9000/api/search'
+  // const url = debug ? '/api/search' : 'http://123.57.140.129:9000/api/search'
+  const url = debug ? '/api/search' : 'http://123.57.140.129/music/api/search'
 
   const data = Object.assign({}, commonParams, {
     w: query,
